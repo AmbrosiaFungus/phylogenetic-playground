@@ -133,6 +133,7 @@ def layout(node):
 
 if __name__ == "__main__":
     t, ts = get_example_tree()
+    ts.scale = 120
     #t.show(tree_style=ts)
     t.render("style.png", tree_style=ts, dpi=600)
 
